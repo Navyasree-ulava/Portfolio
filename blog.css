@@ -1,0 +1,128 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Back to Homepage Link */
+a {
+    text-decoration: none;
+    color: #6a0572;
+    background: #ffb6c1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background: #d48c9a;
+    color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+h1 {
+    text-align: center;
+    color: #6a0572;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    text-align: center;
+    color: #4a154b;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+/* Blog Container */
+.blog-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Post Styles */
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-post h2 {
+    color: #4a154b;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.blog-post .date {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.blog-post a {
+    color: #6a0572;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Read More Section */
+.read-more {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.read-more h2 {
+    color: #6a0572;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.read-more p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #6a0572;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
