@@ -1,0 +1,85 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f9f9f9; /* Soft off-white background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Back to Homepage Link */
+a {
+    text-decoration: none;
+    color: #6a0572;
+    background: #ffb6c1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background: #d48c9a;
+    color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+h1 {
+    text-align: center;
+    color: #6a0572;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #4a154b; /* Elegant dark purple */
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+/* Project List Section */
+div {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+ul li strong {
+    color: #6a0572; /* Purple color for project names */
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background: #6a0572;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}

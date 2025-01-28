@@ -1,0 +1,108 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #fce4ec); /* Subtle pastel gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Back to Homepage Link */
+a {
+    text-decoration: none;
+    color: #6a0572;
+    background: #ffb6c1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background: #d48c9a;
+    color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+h1 {
+    text-align: center;
+    color: #6a0572;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Section Titles */
+h1 + h1 {
+    color: #6a0572;
+    font-size: 2rem;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 20px;
+    text-shadow: 1px 1px 5px rgba(255, 245, 248, 0.3);
+    border-left: 5px solid #ffb6c1;
+    padding-left: 10px;
+}
+
+/* List Styles */
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+ul li strong, ol li strong {
+    color: #6a0572;
+}
+
+/* Nested Lists */
+ul li ul {
+    margin-top: 5px;
+    padding-left: 20px;
+    list-style: circle;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #6a0572;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card-like Styling for Sections */
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(255, 245, 248, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlighted Content */
+strong {
+    color: #6a0572;
+    font-weight: bold;
+}

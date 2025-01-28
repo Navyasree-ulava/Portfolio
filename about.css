@@ -1,0 +1,116 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #6a0572;
+    margin-top: 20px;
+    font-size: 3rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    margin-top: 30px;
+    color: #6a0572;
+    font-size: 1.8rem;
+    border-left: 5px solid #ffb6c1;
+    padding-left: 10px;
+    margin-left: 15px;
+}
+
+/* Paragraph and Link Styles */
+p {
+    font-size: 1.2rem;
+    margin: 15px;
+    padding: 15px;
+    background: rgba(255, 245, 248, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #444;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #6a0572;
+    font-size: 1rem;
+    margin: 20px 15px;
+    background: #ffb6c1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background: #d48c9a;
+    color: #fff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Content Box Styling */
+div {
+    background: rgba(255, 245, 248, 0.8);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-out;
+}
+
+/* List Styles */
+ul {
+    margin: 20px;
+    padding-left: 40px;
+    list-style-type: disc;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #6a0572;
+    text-shadow: 1px 1px 3px rgba(255, 245, 248, 0.5);
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #ffb6c1;
+    max-width: 150px;
+    height: auto;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #6a0572;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
